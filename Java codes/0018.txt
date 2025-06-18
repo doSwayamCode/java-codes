@@ -1,0 +1,14 @@
+import java.util.*;
+// printing hello world using FOR loop.
+public class JavaBasics {
+    public static void main(String[] args) {
+        
+        for(int i = 1 ; i <= 10 ; i++) {
+            System.out.println("HELLO WORLD");
+        }
+      
+        
+        
+    }
+
+}

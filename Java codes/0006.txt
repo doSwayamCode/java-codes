@@ -1,0 +1,16 @@
+import java.util.*;
+// if-else statement example 
+public class JavaBasics {
+    public static void main(String[] args) {
+        Scanner sc  = new Scanner(System.in);
+        int age = sc.nextInt();
+        
+        if(age>=18) {
+            System.out.println("yes you can vote, drive , make a GF");
+        }
+        else {
+            System.out.println("you are not adult, aka NOOB");
+        }
+    }
+}
+  

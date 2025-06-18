@@ -1,0 +1,31 @@
+public class JavaBasics {
+    
+    // PRINTING ALL THE PRIME NUMBERS IN THE GIVEN RANGE.
+    
+
+      public static boolean isPrime ( int n ) {
+        boolean isPrime = true;
+        for(int i=2 ; i<=n-1 ; i++){
+            if(n % i ==0) {           // completely true.
+                 isPrime = false;
+                break;
+            }
+        } 
+            return isPrime;
+      }
+
+      public static void PrimesinRange ( int n ) {
+        for ( int i=2; i<=n; i++) {
+            if(isPrime(i)) {   // true.
+                 System.out.print(i + "  ");
+            }
+
+        } System.out.println();
+      }
+  public static void main(String[] args) {
+      PrimesinRange(100);                // THIS WILL PRINT ALL THE PRIME NUMBERS IN BETWEEN 2 TO 20.
+     
+  }
+
+}
+   

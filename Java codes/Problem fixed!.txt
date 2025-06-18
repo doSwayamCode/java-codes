@@ -1,0 +1,11 @@
+ ERROR :
+
+ error: file not found: noobC.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+
+SOLUTION :
+
+just copy your java file and paste it on desktop!
+
+solved !

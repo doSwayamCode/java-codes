@@ -1,0 +1,15 @@
+import java.util.*;
+
+// code to print HELLO WORLD 100 times using while loop.
+public class JavaBasics {
+    public static void main(String[] args) {
+        int counter = 0;
+
+        while(counter<100) {
+            System.out.println("HELLO WORLD\n");
+            counter++;
+
+        }
+
+    }
+}

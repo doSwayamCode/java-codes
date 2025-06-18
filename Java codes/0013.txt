@@ -1,0 +1,21 @@
+import java.util.*;
+// conditional statements assignment ques. 2 solution.
+public class JavaBasics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+      
+        int temp = sc.nextInt();
+     
+       if(temp>100){
+        System.out.println("you have FEVER");
+       }      
+        else {
+            System.out.println("you dont have FEVER");
+        }
+       
+              
+    }
+        
+
+    
+}

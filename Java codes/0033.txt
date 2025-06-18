@@ -1,0 +1,17 @@
+public class JavaBasics {
+    
+    // factorial of n.
+    public static int facorial (int n) {
+        int f = 1;
+        int i=1;
+        for(i = 1 ; i<=n ; i++){
+           f = f * i;
+        }
+        return f;
+    }
+
+  public static void main(String[] args) {
+    System.out.println((facorial(4)));
+  }
+
+}

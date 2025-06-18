@@ -1,0 +1,27 @@
+public class JavaBasics {
+    
+    // finding binomial coefficient.
+    public static int facorial (int n) {
+        int f = 1;
+        int i=1;
+        for(i = 1 ; i<=n ; i++){
+           f = f * i;
+        }
+        return f;
+    }
+
+      public static int binCoeff (int n , int r){
+        int fact_n = facorial(n);
+        int fact_r = facorial(r);
+        int nmr_fact = facorial(n-r);
+
+        int binCoeff = fact_n / (fact_r *nmr_fact);
+        return binCoeff;
+      }
+  public static void main(String[] args) {
+
+     System.out.println(binCoeff(5, 2));
+  }
+
+}
+   
