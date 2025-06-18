@@ -1,0 +1,30 @@
+public class OOPS {
+  // Interfaces in OOPS.
+  public static void main(String[] args) {
+    Queen q = new Queen();
+    q.moves();
+  }
+}
+
+interface ChessPlayer {
+  void moves();
+
+  }
+
+  class Queen implements ChessPlayer {
+    public void moves () {
+      System.out.println("up, down, right, left, diagonally(in all 4 directions)");
+    }
+  }
+
+    class Rooke implements ChessPlayer {
+    public void moves () {
+      System.out.println("up, down, right, left");
+    }
+  }
+
+    class King implements ChessPlayer {
+    public void moves () {
+      System.out.println("up, down, right, left, diagonally(by 1 step)");
+    }
+  }

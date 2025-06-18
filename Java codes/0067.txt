@@ -1,0 +1,8 @@
+ public static int ClearIbits (int n , int i) {
+    int bitMask = (~0)<<i;
+    return n & bitMask;
+ }
+    public static void main(String[] args) {
+    System.out.println(ClearIbits(15, 2));
+}
+    }
